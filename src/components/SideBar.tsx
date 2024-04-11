@@ -34,7 +34,7 @@ export default function SideBar({set_data, set_err_msg}: {set_data: Function, se
     e.preventDefault();
     set_loading(true)
     fetch(
-      'https://code-test-flask-dot-nextapp-412807.df.r.appspot.com/forecast',
+      'https://justjazz903.com/code-test-flask/forecast',
       {
         method: 'POST',
         headers: {
